@@ -11,8 +11,8 @@ public class Main {
         fr.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         fr.setLocationRelativeTo(null);
         fr.setLayout(new BorderLayout());
-        JLabel lbl=new JLabel("Hello, Danh hamma!");
-        JLabel lbl1=new JLabel("Hello, Danh");
+        JLabel lbl=new JLabel("Hello, Haobucu!");
+        JLabel lbl1=new JLabel("Hello, Haobucu");
         lbl1.setFont(new Font("Times New Roman", Font.PLAIN, 40));
 
         lbl.setFont(new Font("Arial",Font.BOLD,40));
