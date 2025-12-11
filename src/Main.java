@@ -10,10 +10,13 @@ public class Main {
         fr.setVisible(true);
         fr.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         fr.setLocationRelativeTo(null);
-
-        JLabel lbl=new JLabel("Hello, World!");
-        lbl.setFont(new Font("Arial",Font.BOLD,40));
         fr.setLayout(new BorderLayout());
+        JLabel lbl=new JLabel("Hello, Danh hamma!");
+        JLabel lbl1=new JLabel("Hello, Danh");
+        lbl1.setFont(new Font("Times New Roman", Font.PLAIN, 40));
+
+        lbl.setFont(new Font("Arial",Font.BOLD,40));
+
         fr.add(lbl,BorderLayout.CENTER);
     }
 }
